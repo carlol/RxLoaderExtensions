@@ -1,11 +1,11 @@
-package io.carlol.android.rxloaderextensions
+package com.example.android.rxloaderextensions
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.rxloaderextensions.manageLoading
-import com.example.rxloaderextensions.module.FragmentDialogRxLoaderModule
-import com.example.rxloaderextensions.module.ViewRxLoaderModule
-import io.carlol.android.rxloaderextensions.custom.ExampleCustomFragmentDialogModule
+import com.example.android.rxloaderextensions.custom.ExampleCustomFragmentDialogModule
+import io.carlol.rxloaderextensions.manageLoading
+import io.carlol.rxloaderextensions.module.FragmentDialogRxLoaderModule
+import io.carlol.rxloaderextensions.module.ViewRxLoaderModule
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -26,7 +26,12 @@ class MainActivity : AppCompatActivity() {
             disposables.add(
                 Single.timer(5, TimeUnit.SECONDS)
                     .observeOn(AndroidSchedulers.mainThread())
-                    .manageLoading(FragmentDialogRxLoaderModule(this, R.layout.dialog_fragment_wrapper_loader_example))
+                    .manageLoading(
+                        FragmentDialogRxLoaderModule(
+                            this,
+                            R.layout.dialog_fragment_wrapper_loader_example
+                        )
+                    )
                     .subscribe()
             )
         }

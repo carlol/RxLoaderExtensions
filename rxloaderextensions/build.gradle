@@ -2,6 +2,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
+apply from: 'publishinfo.gradle' // deploy lib
+
 android {
     compileSdkVersion 28
 
@@ -41,3 +43,8 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+// deploy lib - start
+apply from: 'publishinstallv1.gradle'
+apply from: 'publishbintrayv1.gradle'
+// deploy lib - end

@@ -1,8 +1,8 @@
-package io.carlol.android.rxloaderextensions.custom
+package com.example.android.rxloaderextensions.custom
 
 import androidx.fragment.app.FragmentActivity
-import com.example.rxloaderextensions.module.FragmentDialogRxLoaderModule
-import io.carlol.android.rxloaderextensions.R
+import com.example.android.rxloaderextensions.R
+import io.carlol.rxloaderextensions.module.FragmentDialogRxLoaderModule
 
 /**
  * Created on 2019-10-02.

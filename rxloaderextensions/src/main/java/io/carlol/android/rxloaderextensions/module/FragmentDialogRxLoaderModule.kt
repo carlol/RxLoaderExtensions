@@ -1,9 +1,9 @@
-package com.example.rxloaderextensions.module
+package io.carlol.rxloaderextensions.module
 
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.FragmentActivity
-import com.example.rxloaderextensions.module.interfaces.IRxLoaderModule
-import com.example.rxloaderextensions.module.ui.WrapperLoaderDialogFragment
+import io.carlol.rxloaderextensions.module.interfaces.IRxLoaderModule
+import io.carlol.rxloaderextensions.module.ui.WrapperLoaderDialogFragment
 
 /**
  * Created on 2019-10-02.

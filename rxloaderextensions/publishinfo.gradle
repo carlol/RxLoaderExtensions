@@ -1,0 +1,25 @@
+ext {
+    bintrayRepo = 'RxLoaderExtensions'
+    bintrayName = 'rxloaderextensions'   // Has to be same as your library module name
+
+    publishedGroupId = 'io.carlol.android'
+    libraryName = 'RxLoaderExtensions'
+    artifact = 'rxloaderextensions'     // Has to be same as your library module name
+
+    libraryDescription = 'Rx extensions to manage UI loader visibility'
+
+    // Your github repo link
+    siteUrl = 'https://github.com/carlol/RxLoaderExtensions'
+    gitUrl = 'https://github.com/carlol/RxLoaderExtensions.git'
+    githubRepository= 'carlol/RxLoaderExtensions'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'carlol'
+    developerName = 'Carlo Luchessa'
+    developerEmail = 'carlo.luchessa@gmail.com'
+
+    licenseName = 'MIT/X11 License'
+    licenseUrl = 'http://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}

@@ -1,4 +1,4 @@
-package com.example.rxloaderextensions.module.interfaces
+package io.carlol.rxloaderextensions.module.interfaces
 
 /**
  * Created on 2019-10-02.

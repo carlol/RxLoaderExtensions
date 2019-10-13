@@ -1,4 +1,4 @@
-package com.example.rxloaderextensions.module.ui
+package io.carlol.rxloaderextensions.module.ui
 
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle

@@ -1,6 +1,6 @@
-package com.example.rxloaderextensions
+package io.carlol.rxloaderextensions
 
-import com.example.rxloaderextensions.module.interfaces.IRxLoaderModule
+import io.carlol.rxloaderextensions.module.interfaces.IRxLoaderModule
 import io.reactivex.Completable
 import io.reactivex.Maybe
 import io.reactivex.Observable
